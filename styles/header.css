@@ -19,6 +19,13 @@ header .container {
     max-width: 384px;
 }
 
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile h1{
     font: var(--text-lg);
     color: var(--text-color-primary);
@@ -41,11 +48,6 @@ header .container {
     gap: 8px;
 }
 
-#profile img {
-    width: 160px; /* Ajuste o tamanho desejado */
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%;
-}
+
 
 
