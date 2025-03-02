@@ -13,10 +13,6 @@ header .container {
     display: flex;
     align-items: center;
     gap: 32px;
-    /* width: 160;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%; */
 }
 
 #profile > div {
@@ -44,4 +40,12 @@ header .container {
     align-items: center;
     gap: 8px;
 }
+
+#profile img {
+    width: 160px; /* Ajuste o tamanho desejado */
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
